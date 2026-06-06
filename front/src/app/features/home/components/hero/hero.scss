@@ -1,0 +1,26 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 60px;
+}
+
+div#logo-image img {
+  width: 500px;
+  height: 500px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0px;
+  padding: 7px;
+  font-family: 'Cinzel', serif;
+  color: var(--text-primary);
+}
+
+h1#company-title {
+  font-size: 3.1em;
+  color: var(--old-gold);
+  text-transform: uppercase;
+  text-shadow: 1px 1px 10px rgba(var(--old-gold-rgb), 0.5);
+}

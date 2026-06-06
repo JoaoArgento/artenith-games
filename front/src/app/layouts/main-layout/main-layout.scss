@@ -1,0 +1,13 @@
+div {
+  width: 100%;
+  height: 100%;
+  background-color: var(--bg-primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+app-hero {
+  align-self: stretch;
+}
