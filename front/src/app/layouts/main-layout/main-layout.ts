@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 import { Navbar } from '../../shared/ui/navbar/navbar';
 import { Footer } from '../../shared/ui/footer/footer';
-import { Hero } from '../../features/home/components/hero/hero';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-main-layout',
-  imports: [Navbar, Footer, Hero],
+  imports: [Navbar, Footer, RouterOutlet],
   templateUrl: './main-layout.html',
   styleUrl: './main-layout.scss',
 })
