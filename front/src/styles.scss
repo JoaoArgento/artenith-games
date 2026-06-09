@@ -12,11 +12,13 @@ body {
 }
 
 * {
-  font-family: 'Schibsted Grotesk', sans-serif;
+  font-family: var(--font-text), sans-serif;
   font-optical-sizing: auto;
 }
 
 :root {
+  --font-primary: 'Cinzel';
+  --font-text: 'Schibsted Grotesk';
   --bg-primary: #171717;
   --bg-secondary: #222222;
 
@@ -25,6 +27,8 @@ body {
 
   --old-gold-rgb: 176, 140, 87;
   --old-gold: #b08d57;
-  --gold: #d4af37;
+  --gold: #c0995e;
+
+  //--gold: #d4af37;
   --gold-hover: #e6c75a;
 }

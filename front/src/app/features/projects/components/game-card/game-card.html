@@ -1,0 +1,18 @@
+<div id="card" [style.background-image]="backgroundImage()">
+  <h1 id="title">{{ game().title }}</h1>
+  <p id="genres">{{ game().genres.join(' / ') }}</p>
+  <!-- <div id="stats">{{ game().status }}</div> -->
+
+  <div>
+    @for (platform of game().platforms; track platform.name) {
+      <div>
+        <a class="platform-icon" [href]="platform.link">
+          <fa-icon [icon]="iconProvider.getIconByPlatform(platform.name)" />
+          <span>{{ platform.name }}</span>
+        </a>
+      </div>
+    }
+  </div>
+
+  <p id="description">{{ game().description }}</p>
+</div>

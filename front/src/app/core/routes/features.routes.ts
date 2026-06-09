@@ -4,7 +4,8 @@ import { routePaths } from './route-paths';
 export const routes: Routes = [
   {
     path: routePaths.home,
-    loadComponent: () => import('../../features/home/components/hero/hero').then((c) => c.Hero),
+    loadComponent: () =>
+      import('../../features/home/pages/hero-page/hero-page').then((c) => c.HeroPage),
   },
   {
     path: routePaths.projects,
@@ -14,7 +15,8 @@ export const routes: Routes = [
 
   {
     path: routePaths.about,
-    loadComponent: () => import('../../features/about/components/about/about').then((c) => c.About),
+    loadComponent: () =>
+      import('../../features/about/pages/about-page/about-page').then((c) => c.AboutPage),
   },
   {
     path: '**',
