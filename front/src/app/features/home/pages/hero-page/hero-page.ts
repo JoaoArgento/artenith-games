@@ -3,7 +3,7 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-hero',
   imports: [],
-  templateUrl: './hero.html',
-  styleUrl: './hero.scss',
+  templateUrl: './hero-page.html',
+  styleUrl: './hero-page.scss',
 })
-export class Hero {}
+export class HeroPage {}

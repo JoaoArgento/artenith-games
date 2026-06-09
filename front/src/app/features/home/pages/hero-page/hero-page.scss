@@ -14,7 +14,7 @@ h1 {
   font-size: 2em;
   margin: 0px;
   padding: 7px;
-  font-family: 'Cinzel', serif;
+  font-family: var(--font-primary), serif;
   color: var(--text-primary);
 }
 
