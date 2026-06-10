@@ -1,5 +1,5 @@
 :host {
-  animation: fade-in-page 0.6s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  animation: fade-in-page 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
 
 @keyframes fade-in-page {
@@ -29,6 +29,19 @@
   background-color: var(--bg-primary);
   border: 2px solid var(--old-gold);
   box-shadow: 1px 1px 8px 0px rgba(var(--old-gold-rgb), 0.5);
+  transition: all 0.2s ease-in-out;
+}
+
+#card:hover {
+  border: 2px solid white;
+
+  h1,
+  p {
+    color: white;
+  }
+  a {
+    color: white;
+  }
 }
 
 h1,
@@ -68,4 +81,8 @@ a {
   text-decoration: none;
   color: var(--gold);
   text-shadow: 1px 1px 8px black;
+}
+.platform-icon {
+  margin-right: 5px;
+  font-size: 1.15em;
 }

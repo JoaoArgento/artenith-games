@@ -1,13 +1,14 @@
 div {
   width: 100%;
-  min-height: 100%;
+  min-height: 100vh;
   background-color: var(--bg-primary);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: column;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  justify-items: center;
+  gap: 40px;
 }
 
 router-outlet {
+  display: none;
   align-self: stretch;
 }

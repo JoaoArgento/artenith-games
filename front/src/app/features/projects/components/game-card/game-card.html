@@ -6,8 +6,8 @@
   <div>
     @for (platform of game().platforms; track platform.name) {
       <div>
-        <a class="platform-icon" [href]="platform.link">
-          <fa-icon [icon]="iconProvider.getIconByPlatform(platform.name)" />
+        <a [href]="platform.link">
+          <fa-icon class="platform-icon" [icon]="iconProvider.getIconByPlatform(platform.name)" />
           <span>{{ platform.name }}</span>
         </a>
       </div>

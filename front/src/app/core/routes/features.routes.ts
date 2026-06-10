@@ -19,6 +19,11 @@ export const routes: Routes = [
       import('../../features/about/pages/about-page/about-page').then((c) => c.AboutPage),
   },
   {
+    path: routePaths.contact,
+    loadComponent: () =>
+      import('../../features/contact/pages/contact-page/contact-page').then((c) => c.ContactPage),
+  },
+  {
     path: '**',
     redirectTo: '/home',
   },
