@@ -1,5 +1,11 @@
 <div id="card">
-  <img [src]="member().avatar" [alt]="member().name" />
+  <img
+    id="avatar"
+    [src]="avatarUrl()"
+    [style.transform]="avatarTransform()"
+    [style.--glow-color]="dropShadowColor()"
+    [alt]="member().name"
+  />
   <h1 id="name">{{ member().name }}</h1>
   <div id="roles" class="list">
     @for (role of member().roles; track role) {

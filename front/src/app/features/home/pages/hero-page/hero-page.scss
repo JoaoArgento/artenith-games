@@ -14,6 +14,7 @@ main {
 div#logo-image img {
   width: 500px;
   height: 500px;
+  filter: drop-shadow(0 0 20px rgba(var(--old-gold-rgb), 0.5));
 }
 
 h1 {

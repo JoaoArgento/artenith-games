@@ -22,7 +22,7 @@
   color: white;
   width: 240px;
   height: 280px;
-  padding: 25px;
+  padding: 30px;
   max-width: 280px;
   border-radius: 15px;
   background-color: var(--bg-primary);
@@ -34,6 +34,11 @@
 #card:hover {
   transform: scale(1.01);
   border: 2px solid white;
+
+  #avatar {
+    image-rendering: pixelated;
+    filter: drop-shadow(0 0 14px rgba(var(--glow-color)));
+  }
 }
 
 h1,
@@ -59,6 +64,12 @@ div#roles {
   font-weight: 500;
   font-size: 1.1em;
   color: var(--old-gold);
+}
+
+#avatar {
+  image-rendering: pixelated;
+  filter: drop-shadow(0 0 8px rgba(var(--glow-color)));
+  transition: filter 0.2s ease-in-out;
 }
 
 div.list {
