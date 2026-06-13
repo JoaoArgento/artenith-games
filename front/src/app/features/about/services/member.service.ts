@@ -26,7 +26,7 @@ export class MemberService {
       name: 'Taiguara',
       avatar: '',
       roles: [Role.GameDesigner, Role.Artist],
-      skills: [Skill.CSharp, Skill.Unity],
+      skills: [Skill.Unity, Skill.Blender],
     },
   ];
 }

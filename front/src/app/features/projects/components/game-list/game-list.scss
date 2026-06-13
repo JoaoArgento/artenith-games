@@ -1,12 +1,18 @@
-// :host {
-//   width: 100%;
-//   height: 100%;
-// }
+section {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
 
-// h1 {
-//   text-align: center;
-//   color: var(--old-gold);
-// }
+h1#page-title {
+  font-size: 3em;
+  font-family: var(--font-primary);
+  color: var(--old-gold);
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
 
 div#projects {
   width: 100%;

@@ -20,9 +20,9 @@
   align-items: center;
   gap: 15px;
   color: white;
-  width: 240px;
-  height: 240px;
-  padding: 30px;
+  width: 260px;
+  height: 280px;
+  padding: 25px;
   max-width: 280px;
   border-radius: 15px;
   background-color: var(--bg-primary);
@@ -41,12 +41,12 @@ span {
   margin: 0px;
   padding: 0px;
   color: var(--white-gold);
-  font-size: 0.95em;
+  font-size: 0.98em;
   text-wrap: nowrap;
 }
 
 h1#name {
-  font-size: 1.5em;
+  font-size: 1.45em;
   text-align: center;
   text-wrap: nowrap;
   font-family: var(--font-primary);
@@ -54,7 +54,13 @@ h1#name {
   text-shadow: 1px 1px 8px rgba(var(--old-gold-rgb), 0.5);
 }
 
+div#roles {
+  font-weight: 500;
+  font-size: 1.1em;
+  color: var(--old-gold);
+}
+
 div.list {
   display: flex;
-  gap: 10px;
+  gap: 13px;
 }

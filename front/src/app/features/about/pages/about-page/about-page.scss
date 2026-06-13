@@ -2,3 +2,60 @@
   width: 100%;
   height: 100%;
 }
+
+section {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 45px;
+}
+
+#team-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+
+h1#who-we-are {
+  font-size: 3em;
+  font-family: var(--font-primary);
+  color: var(--old-gold);
+}
+
+h1,
+p {
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+p#team-description {
+  color: white;
+  font-size: 1.3em;
+  text-wrap: wrap;
+  max-width: 700px;
+  text-align: center;
+}
+
+button#projects-link {
+  background-color: var(--old-gold);
+  border-radius: 10px;
+  color: white;
+  font-size: 1.5em;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-family: var(--font-primary);
+  font-weight: 700;
+  box-sizing: content-box;
+  box-shadow: 0px 0px 8px 0px var(--gold);
+}
+
+button:hover {
+  transform: scale(1.02);
+}

@@ -20,7 +20,7 @@
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
   color: white;
   max-width: 270px;
   height: 380px;
@@ -35,20 +35,18 @@
 #card:hover {
   border: 2px solid white;
 
-  h1,
-  p {
-    color: white;
-  }
-  a {
-    color: white;
-  }
+  // h1,
+  // p,
+  // a {
+  //   color: white;
+  // }
 }
 
 h1,
 p {
   margin: 0px;
   padding: 0px;
-  color: var(--old-gold);
+  color: var(--white-gold);
 }
 
 p#genres {
@@ -85,4 +83,8 @@ a {
 .platform-icon {
   margin-right: 5px;
   font-size: 1.15em;
+}
+
+a:hover {
+  color: var(--white-gold);
 }
