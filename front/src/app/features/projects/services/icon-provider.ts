@@ -4,6 +4,9 @@ import {
   faGooglePlay,
   faItchIo,
   faSteam,
+  faYoutube,
+  faInstagram,
+  faTiktok,
   IconDefinition,
 } from '@fortawesome/free-brands-svg-icons';
 
@@ -13,9 +16,10 @@ export class IconProvider {
     'Itch.io': faItchIo,
     'Play Store': faGooglePlay,
     Steam: faSteam,
+    Youtube: faYoutube,
+    Instagram: faInstagram,
+    Tiktok: faTiktok,
   };
-
-  constructor() {}
 
   getIconByPlatform(platform: string): IconDefinition {
     return this.platformIcons[platform];

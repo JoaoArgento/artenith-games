@@ -24,6 +24,8 @@ h1#who-we-are {
   font-size: 3em;
   font-family: var(--font-primary);
   color: var(--old-gold);
+  text-shadow: 1px 1px 8px black;
+  // text-shadow: 1px 1px 8px rgba(var(--old-gold-rgb), 0.5);
 }
 
 h1,
@@ -34,7 +36,7 @@ p {
 }
 
 p#team-description {
-  color: white;
+  color: rgba(255, 255, 255, 0.801);
   font-size: 1.3em;
   text-wrap: wrap;
   max-width: 700px;

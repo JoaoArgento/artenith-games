@@ -1,0 +1,5 @@
+<div id="social-medias">
+  @for (socialMedia of socialMedias; track socialMedia.name) {
+    <app-social-media-card [socialMedia]="socialMedia" />
+  }
+</div>

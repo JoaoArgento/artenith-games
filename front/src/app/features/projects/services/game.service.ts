@@ -15,7 +15,7 @@ export class GameService {
       title: 'Ultima Chance',
       description: 'Jogasso da porra mermao slk não compensa',
       genres: ['Ação', 'Aventura'],
-      imageURL: '',
+      imageURL: 'hopeless.jpg',
       status: GameStatus.Finished,
       platforms: [
         {

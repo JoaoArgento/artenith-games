@@ -16,14 +16,13 @@
 #card {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
-  gap: 15px;
+  gap: 2px;
   color: white;
-  width: 240px;
-  height: 280px;
-  padding: 25px;
-  max-width: 280px;
+  width: 200px;
+  height: 200px;
+  padding: 30px;
   border-radius: 15px;
   background-color: var(--bg-primary);
   border: 2px solid var(--old-gold);
@@ -34,34 +33,36 @@
 #card:hover {
   transform: scale(1.01);
   border: 2px solid white;
+
+  #media-icon {
+    filter: drop-shadow(0 0 8px rgba(var(--white-gold-rgb), 0.7));
+  }
+
+  #name {
+    text-shadow: 0px 0px 8px rgba(var(--white-gold-rgb), 0.6);
+  }
 }
 
-h1,
-p,
-span {
+#media-icon {
+  text-align: center;
+  font-size: 5.2em;
+  color: var(--old-gold);
+  filter: drop-shadow(0 0 8px rgba(var(--white-gold-rgb), 0.5));
+  transition: filter 0.2s ease;
+}
+
+#media- h1,
+p {
   margin: 0px;
   padding: 0px;
-  color: var(--white-gold);
-  font-size: 0.98em;
-  text-wrap: nowrap;
 }
 
 h1#name {
-  font-size: 1.5em;
+  color: var(--old-gold);
+  text-shadow: 0px 0px 3px rgba(var(--old-gold-rgb), 0.5);
+}
+
+p#description {
   text-align: center;
-  text-wrap: nowrap;
-  font-family: var(--font-primary);
-  color: var(--old-gold);
-  text-shadow: 1px 1px 8px rgba(var(--old-gold-rgb), 0.5);
-}
-
-div#roles {
-  font-weight: 500;
-  font-size: 1.1em;
-  color: var(--old-gold);
-}
-
-div.list {
-  display: flex;
-  gap: 13px;
+  color: white;
 }
