@@ -1,0 +1,60 @@
+:host {
+  animation: fade-in-page 0.5s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+@keyframes fade-in-page {
+  0% {
+    opacity: 0;
+    transform: translateY(20px) scale(0);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+#card {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 15px;
+  color: white;
+  width: 240px;
+  height: 240px;
+  padding: 30px;
+  max-width: 280px;
+  border-radius: 15px;
+  background-color: var(--bg-primary);
+  border: 2px solid var(--old-gold);
+  box-shadow: 1px 1px 8px 0px rgba(var(--old-gold-rgb), 0.5);
+  transition: all 0.15s ease-in-out;
+}
+
+#card:hover {
+  transform: scale(1.01);
+}
+
+h1,
+p,
+span {
+  margin: 0px;
+  padding: 0px;
+  color: var(--white-gold);
+  font-size: 0.95em;
+  text-wrap: nowrap;
+}
+
+h1#name {
+  font-size: 1.5em;
+  text-align: center;
+  text-wrap: nowrap;
+  font-family: var(--font-primary);
+  color: var(--old-gold);
+  text-shadow: 1px 1px 8px rgba(var(--old-gold-rgb), 0.5);
+}
+
+div.list {
+  display: flex;
+  gap: 10px;
+}

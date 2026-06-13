@@ -1,0 +1,15 @@
+<div id="card">
+  <img [src]="member().avatar" [alt]="member().name" />
+  <h1 id="name">{{ member().name }}</h1>
+  <div id="roles" class="list">
+    @for (role of member().roles; track role) {
+      <span>• {{ role }}</span>
+    }
+  </div>
+
+  <div id="skills" class="list">
+    @for (skill of member().skills; track skill) {
+      <span>• {{ skill }}</span>
+    }
+  </div>
+</div>

@@ -1,5 +1,5 @@
 :host {
-  animation: fade-in-page 1s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+  animation: fade-in-page 0.6s cubic-bezier(0.25, 1, 0.5, 1) forwards;
 }
 
 @keyframes fade-in-page {
@@ -53,7 +53,7 @@ p {
 
 p#genres {
   text-transform: uppercase;
-  font-weight: 600;
+  font-weight: 700;
   text-shadow: 1px 1px 8px black;
 }
 
