@@ -13,7 +13,7 @@ export class GameService {
     ultimaChance: {
       id: '0',
       title: 'Ultima Chance',
-      description: 'Jogasso da porra mermao slk não compensa',
+      description: 'slk não compensa',
       genres: ['Ação', 'Aventura'],
       imageURL: 'hopeless.jpg',
       status: GameStatus.Finished,
@@ -29,8 +29,7 @@ export class GameService {
     gunsAndSkulls: {
       id: '1',
       title: 'Guns and Skulls',
-      description:
-        'Jogasso da porra mermao slk não compensadsssssssssssssssssaaaaaaaaaaaaaaaaaaaaaaaaaaa',
+      description: 'slk não compensa',
       genres: ['Ação', 'Aventura'],
       imageURL: 'hopeless.jpg',
       status: GameStatus.Finished,
@@ -46,7 +45,7 @@ export class GameService {
     hopelessDays: {
       id: '2',
       title: 'Hopeless Days',
-      description: 'Jogasso da porra mermao slk não compensa',
+      description: 'slk não compensa',
       genres: ['Ação', 'Aventura'],
       imageURL: 'hopeless.jpg',
       status: GameStatus.Finished,
@@ -62,7 +61,7 @@ export class GameService {
     idleMiner: {
       id: '3',
       title: 'Idle miner',
-      description: 'Jogasso da porra mermao slk não compensa',
+      description: 'slk não compensa',
       genres: ['Ação', 'Aventura'],
       imageURL: 'hopeless.jpg',
       status: GameStatus.Finished,
