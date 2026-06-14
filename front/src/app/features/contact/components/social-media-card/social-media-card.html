@@ -1,5 +1,7 @@
-<div id="card">
-  <fa-icon id="media-icon" [icon]="getSocialMediaIcon()"></fa-icon>
-  <h1 id="name">{{ socialMedia().name }}</h1>
-  <p id="description">{{ socialMedia().description }}</p>
-</div>
+<a target="_blank" referrerpolicy="no-referrer" [href]="socialMedia().link">
+  <div id="card">
+    <fa-icon id="media-icon" [icon]="getSocialMediaIcon()"></fa-icon>
+    <h1 id="name">{{ socialMedia().name }}</h1>
+    <p id="description">{{ socialMedia().description }}</p>
+  </div>
+</a>

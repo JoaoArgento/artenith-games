@@ -1,6 +1,6 @@
 export enum Role {
-  Programmer = 'Programmer',
-  Artist = 'Artist',
+  Programmer = 'Programador',
+  Artist = 'Artista',
   GameDesigner = 'Game Designer',
 }
 

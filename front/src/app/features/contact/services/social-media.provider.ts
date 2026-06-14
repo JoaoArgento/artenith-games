@@ -5,29 +5,25 @@ import { SocialMedia } from '../models/social-media.model';
 export class SocialMediaProvider {
   public readonly socialMedias: SocialMedia[] = [
     {
-      logo: '',
       name: 'Steam',
-      link: '',
-      description: 'Junte-se à nossa comunidade de jogos',
+      link: 'https://store.steampowered.com/search/?developer=Artenith%20Games',
+      description: 'Conheça nossos jogos postados na steam!',
     },
     {
-      logo: '',
       name: 'Youtube',
-      link: '',
+      link: 'https://www.youtube.com/@ArtenithGames',
       description: 'Assista aos nossos videos',
     },
 
     {
-      logo: '',
       name: 'Instagram',
-      link: '',
+      link: 'https://www.instagram.com/artenithgames/',
       description: 'Novidades do dia a dia',
     },
 
     {
-      logo: '',
       name: 'Tiktok',
-      link: '',
+      link: 'https://www.tiktok.com/@artenithgames',
       description: 'Clipes e momentos engraçados',
     },
   ];
